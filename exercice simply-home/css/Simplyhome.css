@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('../font/CaviarDreams-webfont.eot');
+    src: url('../font/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/CaviarDreams-webfont.woff2') format('woff2'),
+         url('../font/CaviarDreams-webfont.woff') format('woff'),
+         url('../font/CaviarDreams-webfont.ttf') format('truetype'),
+         url('../font/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'caviar_dreamsregular',Times, Georgia,  Cambria, Cochin,  'Times New Roman', serif;
+    font-size: 20px;
+}
+
+
+header {
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 70px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+section {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/image-bandeau.jpg");
+    background-size: cover;
+    position: relative;
+    height: 750px;
+}
+nav {
+    background-color: rgba(106, 34, 90, 0.85);
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+
+
+}
+main {
+    width: 1200px;
+    font-size: 1.2em;
+    color: black;
+    margin: auto;
+}
+main p {
+    text-align: center;
+    text-align: justify;
+    word-break: normal;
+}
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer {
+    background-image: url("../images/img-bg-footer.jpg");
+    width: 100%;
+    height: 750px;
+    margin-top: 15px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+h1 {
+    font-size:1.8em;
+    text-align: center;
+    margin-top: 50px;
+}
+h2 {
+    font-size: 2.2em;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 1.1em;
+    margin-top: 0;
+}
+h1, h4 {
+font-weight: bold;
+}
+h4 {
+    font-size: 1.2em;
+}
+h5 {
+    font-size: 1.1em;
+}
+#footer, #navigation, #simply-foot, #simply {
+    display: flex;
+}
+.logo, #navigation {
+    justify-content: flex-end;
+}
+.logo {
+    margin: 10px;
+    padding: 20px;
+}
+.border {
+    border-left: #3e3d4b 4px solid;
+    border-right: #3e3d4b 4px solid;
+}
+.simply-logo {
+    width: 100px;
+    height: 100px;
+    padding-top: 17px;
+    padding-left: 17px;
+}
+#navigation {
+    margin: auto;
+    margin-right: 20px;
+}
+.navigation-lien {
+    color: white;
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 1.3em;
+}
+.navigation-lien:hover {
+    border-bottom: white 2px solid;
+    font-size: 1.5em;
+}
+.fab {
+    padding-left: 10px;
+}
+#constructeur {
+    margin-left: 40px;
+}
+#main-picture {
+    max-width: 30%;
+    max-height: 40%;
+    float: right;
+    margin-left: 60px;
+    margin-right: 90px;
+}
+#block-main-icone {
+    float: right;
+    position: fixed;
+    right: 0px;
+}
+.main-icone {
+    border: black 1px solid;
+    padding: 5px;
+    margin-top: 8px;
+}
+.card {
+    background-color: #e0dfdf;
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-left: 0;
+}
+.pub-container {
+    margin-top: 60px;
+}
+.container {
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.button {
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: white ;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: black ;
+    border: white 1px solid;
+    border-radius: 5px;
+    color: white;
+}
+#pub {
+    position: absolute;
+}
+#pub-info {
+    position: relative;
+    color: white;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+#footer {
+    justify-content: center;
+}
+.adress {
+    background-color: white;
+    border: white 1px solid;
+    width: 25%;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    margin-top: 90px;
+}
+.adress a {
+    text-align: center;
+    margin: auto;
+    padding: 5px 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: white ;
+    border: black 1px solid;
+}
+.button-footer {
+    text-align: center;
+    margin: auto;
+    padding: 5px 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    background-color: white ;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+.button-footer:hover {
+    background-color: black ;
+    border: white 1px solid;
+    color: white;
+    border-radius: 5px;
+}
+#simply-foot {
+    background-color: black;
+    border: black 1px solid;
+    padding: 50px 30px;
+    width: 30%;
+    color: white;
+    margin-top: 90px;
+}
+#simply-foot .simply-logo {
+    padding-right: 30px;
+}
+#copyright {
+    padding: 10px;
+    margin-top: 310px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.image {
+    width: 328px;
+}
+
+
+
+/*
+
+NON FINI
+
+@media all and (max-width: 1024px) {
+    @font-face {
+        font-family: 'caviar_dreamsregular';
+        src: url('../font/CaviarDreams-webfont.eot');
+        src: url('../font/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+             url('../font/CaviarDreams-webfont.woff2') format('woff2'),
+             url('../font/CaviarDreams-webfont.woff') format('woff'),
+             url('../font/CaviarDreams-webfont.ttf') format('truetype'),
+             url('../font/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    html, body {
+        margin: 0;
+        padding: 0;
+        font-family: 'caviar_dreamsregular',Times, Georgia,  Cambria, Cochin,  'Times New Roman', serif;
+        font-size: 20px;
+    }
+    
+    
+    header {
+        display: flex;
+        justify-content: center;
+        background-color: #dcdcdc;
+        width: 100%;
+        font-size: 1.2em;
+        padding-top: auto;
+    
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/image-bandeau.jpg");
+        background-size: cover;
+        position: relative;
+        height: 500px;
+    
+    }
+    article {
+        display: flex; 
+        flex-direction: column;
+         align-items: center;
+        justify-content: center;
+        }
+
+    nav img {
+        background-color: rgba(106, 34, 90, 0.85);
+    }
+    main {
+        font-size: 1.2em;
+        color: black;
+        margin: auto;
+    }
+    main p {
+        text-align: center;
+        text-align: justify;
+        word-break: normal;
+    }
+    h1 {
+        text-align: center;
+    }
+    h2, h3 {
+        color: white;
+    }
+    h2 {
+        font-size: 2.2em;
+        letter-spacing: 3px;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: 1.1em;
+        margin-top: 0;
+    }
+    h4 {
+        text-align:center;
+    }
+    h5 {
+        font-size: 1.1em;
+    }
+    .logo {
+        margin: 10px;
+        padding: 20px;
+    }
+    .simply-logo {
+        width: 100px;
+        height: 100px;
+        padding-top: 17px;
+        padding-left: 17px;
+    }
+    #navigation {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .navigation-lien {
+        color: white;
+        font-weight: bold;
+        font-size: 1.3em;
+        text-decoration: none;
+        padding-top: 30px;
+    }
+    .navigation-lien:hover {
+        text-decoration: underline;
+        font-size: 1.5em;
+    }
+    #simply {
+        display: flex;
+        background-color: rgba(106, 34, 90, 0.85);
+    }
+    #block-main-icone {
+        float: right;
+        position: fixed;
+        right: 0px;
+    }
+    .main-icone {
+        border: black 1px solid;
+        padding: 5px;
+        margin-top: 8px;
+    }
+    #main-picture {
+        display: none;
+        }
+    .card {
+        background-color: #e0dfdf;
+        margin-right: 60px;
+        margin-top: 60px;
+    
+    }
+    .container {
+        padding-left: 20px;
+        font-weight: bold;
+        font-size: 0.9em;
+    }
+    .pub-container {
+        margin-top: 30px;
+        margin: auto;
+        }
+    #pub {
+        position: absolute;
+    }
+    #pub-info {
+        position: relative;
+        color: white;
+        font-size: 1.3em;
+        letter-spacing: 1px;
+        font-weight: bold;
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+    .image {
+         width: 600px;
+        }
+    
+}
+*/
